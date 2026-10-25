@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "syaifulmain.shutdown-countdown",
+  "name": "Shutdown Countdown",
+  "version": "0.1.0",
+  "author": "Muhamad Syaifullah",
+  "license": "MIT",
+  "description": "Countdown presets and a target time that shut down this machine with systemd.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Shutdown Countdown",
+    "description": "Pick a preset or a target time, start the countdown, and shut down on time.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
